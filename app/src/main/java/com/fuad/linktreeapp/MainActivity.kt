@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         val title = findViewById<TextView>(R.id.title)
         val subtitle = findViewById<TextView>(R.id.subTitle)
         val list = findViewById<RecyclerView>(R.id.list)
-        list.adapter = LinkAdapter
 
+        list.adapter = LinkAdapter
         image.setImageResource(R.drawable.fuad2)
         title.text = "Fuad Hamidan"
         subtitle.text = "Android Developer"
